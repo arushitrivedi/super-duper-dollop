@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#outer
+{
+	height: 1000px;
+	width:1500px;
+	border: solid;
+	border-color: white;
+	border-radius:20px
+		
+}
+.header
+{
+	height: 150px;
+	width: 1433.5px;
+	border:  solid white;
+	//border-color: white;
+	border-radius: 20px;
+	padding: 30px;
+	background-image:url('heading background.png');
+	background-size: 100% 100%;
+}
+#labels
+{
+	height: 50px;
+	width:1180px;
+	border: solid;
+	border-color: white;	
+}
+#labels ul
+{
+	list-style-type: none;
+}
+#labels ul li
+{
+	display: inline;
+	padding: 35px;
+}
+#labels ul li a:hover
+{
+	color:white;
+}
+#labels ul a:hover
+{
+	background-color:brown;
+}
+a 
+{
+            	text-decoration: none;
+}
+#right
+{
+	height: 760px;
+	width: 290px;
+	border: solid;
+	border-color: white;
+	border-radius: 20px;
+	float: right;
+	padding: 10px;
+	background-image:url('right background.png');
+	background-size: 100% 100%;
+}
+#r1
+{
+	height: 400px;
+	width: 280px;
+	//border: 1px solid;
+	float: left;
+}
+#r2
+{
+	height: 200px;
+	width: 280px;
+	//border: 1px solid;
+	float: left;
+}
+#m1
+{
+	height: 300px;
+}
+#m2
+{
+	height: 150px
+}
+#main
+{
+	height: 725px;
+	width: 1180px;
+	border: solid;
+	border-radius: 20px;
+	//background-image:url('india221.jpg');
+	background-image:url('main background.png');
+	color: white;
+	font-family: cursive;
+	font-size: 30px;
+	background-size: 100% 100%;
+}
+</style>
+</head>
+<body>
+	<div id="outer">
+		<div class="header"><h1 style = "font-family:cursive;font-size:70px; ">INDIA-The land of diversity</h1></div>
+		<div id="right">
+				<div id="r1">
+					<h2>States in India</h2><marquee id="m1" direction="up" scrollamount="4"><ul><li>Maharashtra</li><li>Karnataka</li><li>Uttar Pradesh</li><li>Rajasthan</li><li>Andhra Pradesh</li><li>Arunachal Pradesh</li><li>Assam</li><li>Bihar</li><li>Chhattisgarh</li><li>Goa</li><li>Gujarat</li><li>Haryana</li><li>Himachal Pradesh</li><li>Jharkhand</li>
+					<li>Madhya Pradesh</li><li>Kerala</li><li>Manipur</li><li>Meghalaya</li><li>Mizoram</li><li>Nagaland</li><li>Odisha</li><li>Punjab</li><li>Sikkim</li><li>Tamil Nadu</li><li>Telanagana</li><li>Tripura</li><li>Uttarakhand</li><li>West Bengal</li></ul></marquee>
+				</div>
+				<div id="r2">
+					<h2>Union Territories in India</h2><marquee id="m2" direction="up" scrollamount="4"><br/><ul><li>Andaman and Nicobar Islands</li><li>Chandigarh</li><li>Dadra and Nagar Haveli and Daman and Diu</li><li>Delhi</li><li>Jammu and Kashmir</li><li>Ladakh</li><li>Lakshadweep</li><li>Puducherry</li></ul></marquee>
+				</div>
+		</div>
+		<div id="labels">
+			<ul><li><a href="Architecture.html">ARCHITECTURE</a></li><li><a href="religion.html">RELIGION</a></li><li><a href="food.html">FOOD</a></li><li><a href="people.html">PEOPLE</a></li><li><a href="geography.html">GEOGRAPHY</a></li><li><a href="history.html">HISTORY</a></li><li><a href="celebrations.html">CELEBRATIONS</a></li></ul>
+		</div>
+		<div id="main">
+			<p>INDIA! India is a beautiful land. Beautiful-not just because of the rich flora and fauna but because of innumerous reasons. Its much more than unity in diversity.  </p><p>Right from childhood, we hear so much about India that its a land of festivals,land of culture, land of diversity, spices and what not. 
+			To me its just not land, its a feeling that brings goosebumps in your inner self. Its just not a country- its spirituality, its philosophy, its an aroma-an essence of being one, its a mystery a belief that no matter how diveresed, we are still one.</p>
+			<p>Lets unveil the hidden beauty of India and bring to life what is burried under fragnant petals. Lets breathe in together the freshness and brilliance of the biggest diamond. Visit this site to have a mini tour to India and know about its culture and heritage. Feast your eyes and hug the benevolent arms of India that are stretching till eternity.</p>
+			<p>Treat your soul by witnessing this land of colors and absorbing the beauty radiated by the humbleness of the region.</p>
+		</div>
+	</div>
+</body>
+</html>
